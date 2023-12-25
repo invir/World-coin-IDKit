@@ -6,7 +6,7 @@ import { IDKitWidget } from '@worldcoin/idkit'
 	action="RestrictedAction" //
 	signal="2" //
 	onSuccess={onSuccess}
-	verification_level="device" // minimum verification level accepted, defaults to "device"
+	verification_level="device" // minimum verification level accepted, defaults to "orb"
 >
 	{({ open }) => <button onClick={open}>Verify with World ID</button>}
 </IDKitWidget>
